@@ -6,7 +6,7 @@ export const MongoClient = {
 
   async connect(): Promise<void> {
     const url =
-      process.env.MONGODB_URL || "mongodb+srv://cluster0.77m4ihk.mongodb.net";
+      process.env.MONGODB_URL || "mongodb+srv://cluster0.8pcc8vz.mongodb.net";
     const username = process.env.MONGODB_USERNAME;
     const password = process.env.MONGODB_PASSWORD;
 
